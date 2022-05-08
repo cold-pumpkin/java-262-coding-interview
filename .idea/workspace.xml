@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f75c99b3-697e-451b-b053-59b700fc0060" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/기본자료형/같은_무게를_가진_가장_가까운_정수_찾기/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/기본자료형/비트_뒤집기/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/기본자료형/패리티_계산하기/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/기본자료형/패리티_계산하기/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/기본자료형/패리티_계산하기/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Sample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/기본자료형/같은_무게를_가진_가장_가까운_정수_찾기/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/기본자료형/비트_뒤집기/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/기본자료형/패리티_계산하기/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/기본자료형/패리티_계산하기/Solution2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/기본자료형/패리티_계산하기/Solution4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +48,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="JUnit.Solution2.test">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -154,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635173424557</updated>
-      <workItem from="1651994275256" duration="7840000" />
+      <workItem from="1651994275256" duration="8189000" />
     </task>
     <servers />
   </component>
