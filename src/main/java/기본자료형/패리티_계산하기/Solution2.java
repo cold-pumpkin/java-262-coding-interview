@@ -5,7 +5,11 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class Solution2 {
-
+    /**
+     * [비트 조작 트릭]
+     * x & (x-1) 연산으로 마지막 비트를 1로 바꾸며
+     * 모든 비트가 0이 될 때 까지 반복
+     */
     public static short parity(long x) {
         short result = 0;
         while (x != 0) {
