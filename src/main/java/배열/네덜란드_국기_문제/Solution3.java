@@ -1,5 +1,6 @@
-package 배열.네덜란드_국기_문제.README;
+package 배열.네덜란드_국기_문제;
 
+import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
@@ -7,7 +8,7 @@ import java.util.Collections;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static 배열.네덜란드_국기_문제.README.Color.*;
+import static 배열.네덜란드_국기_문제.Color.*;
 
 public class Solution3 {
     public static List<Color> dutchFlagPartition(int pivotIndex, List<Color> colors) {
@@ -39,7 +40,7 @@ public class Solution3 {
     void test() {
         // RED - WHITE - BLUE
         List<Color> colors = Arrays.asList(BLUE, RED, RED, WHITE, RED, WHITE, BLUE, BLUE);
-        assertThat(dutchFlagPartition(3, colors))
+        Assertions.assertThat(dutchFlagPartition(3, colors))
                 .hasSameElementsAs(List.of(RED, RED, RED, WHITE, WHITE, BLUE, BLUE, BLUE));
     }
 }
