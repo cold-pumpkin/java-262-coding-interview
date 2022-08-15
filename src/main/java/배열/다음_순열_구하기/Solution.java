@@ -22,8 +22,8 @@ public class Solution {
                 && perm.get(inversionPoint) >= perm.get(inversionPoint + 1)) {
             --inversionPoint;
         }
-        System.out.println(inversionPoint);
 
+        // 이미 사전 순으로 마지막인 경우 빈 리스트 리턴
         if (inversionPoint < 0) {
             return Collections.emptyList();
         }
@@ -48,5 +48,9 @@ public class Solution {
         List<Integer> perm = Arrays.asList(6, 2, 1, 5, 4, 3, 0);
         assertThat(nextPermutation(perm))
                 .containsExactly(6, 2, 3, 0, 1, 4, 5);
+
+        perm = Arrays.asList(6, 5, 4, 3, 2, 1, 0);
+        assertThat(nextPermutation(perm))
+                .containsExactly();
     }
 }
