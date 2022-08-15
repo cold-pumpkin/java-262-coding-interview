@@ -40,9 +40,9 @@ public class Solution {
         assertThat(applyPermutation(rule, numbers))
                 .containsExactly(1, 2, 0, 3);
 
-//        rule = Arrays.asList(2, 3, 1, 0);
-//        numbers = Arrays.asList(0, 1, 2, 3);
-//        assertThat(applyPermutation(rule, numbers))
-//                .hasSameElementsAs(List.of(3, 0, 2, 1));
+        rule = Arrays.asList(2, 3, 1, 0);
+        numbers = Arrays.asList(0, 1, 2, 3);
+        assertThat(applyPermutation(rule, numbers))
+                .hasSameElementsAs(List.of(3, 0, 2, 1));
        }
 }
